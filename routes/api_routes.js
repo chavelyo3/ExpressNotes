@@ -39,8 +39,8 @@ module.exports = function (app) {
   app.delete("/api/notes/:id", function (req, res) {
     fs.readFile(__dirname + "/../db/db.json", function (err, data) {
       if (err) console.log(err);
-      let array = JSON.parse(data);
-      const newArray = array.filter(
+      let noteEx = JSON.parse(data);
+      const newArray = noteEx.filter(
         (dataItem) => dataItem.id !== parseInt(req.params.id)
       );
       fs.writeFile(
@@ -50,7 +50,7 @@ module.exports = function (app) {
           if (err) {
             console.log(err);
           } else {
-            res.send(array);
+            res.send(noteEx);
           }
         }
       )
