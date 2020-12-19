@@ -10,7 +10,7 @@ This applicagion is launched on Heroku. Launched on local computer by running <c
 
 ![demo](https://github.com/chavelyo3/ExpressNotes/blob/main/public/assets/images/localhost.gif?raw=true)
 <br>
-  Click [here](*link will go here*) to view live on Heroku. <br>
+  Click [here](https://express--n0tes.herokuapp.com/) to view live on Heroku. <br>
 
 
 # Tools
