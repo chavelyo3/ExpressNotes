@@ -8,7 +8,7 @@ This applicagion is launched on Heroku. Launched on local computer by running <c
 
 # Usage 
 
-<iframe src="https://drive.google.com/file/d/1nKmdmtHlhOBXr2M2ruNg8svDVy5ORQFK/preview" width="640" height="480"></iframe>
+![demo](https://github.com/chavelyo3/ExpressNotes/blob/main/public/assets/images/localhost.gif?raw=true)
 <br>
   Click [here](*link will go here*) to view live on Heroku. <br>
 
